@@ -1,0 +1,32 @@
+.tournament-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333; /* Dark background for better visibility */
+}
+
+.bracket-left, .bracket-right {
+  width: 45%;
+}
+
+.bracket-left {
+  /* No transformation on the left side */
+}
+
+.center-trophy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.center-trophy img {
+  width: 96px;
+  height: 96px;
+}
+
+.bracket-right {
+  transform: scaleX(-1); /* Flip the right bracket */
+}
